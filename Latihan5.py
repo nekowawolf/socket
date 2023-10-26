@@ -8,5 +8,6 @@ def convert_integer():
     print ("original: %s ==> Short Host Byte Order: %s, Network byte order: %s"
            %(data, socket.ntohl(data), socket.htonl(data)))
     
-    if __name__ == '__main__':
+
+if __name__ == '__main__':
         convert_integer()

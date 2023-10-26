@@ -1,4 +1,5 @@
 import socket
+
 def get_remote_machine_info():
     remote_host = 'www.python.org'
     try:
